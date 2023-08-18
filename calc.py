@@ -39,6 +39,8 @@ root = tk.Tk()
 
 root.resizable(False,False)
 root.configure(bg="#17161b")
+root.title("Calculator")
+
 
 input = tk.Text(root,height=2,width=18,font=('Arial',24),bg="black",fg="white")
 input.grid(columnspan=5)
